@@ -82,7 +82,7 @@ img {
     align-items: center;
 }
 
-.about .title {
+.title {
     width: 40%;
     font-size: 3rem;
     float: left;
@@ -142,4 +142,71 @@ img {
     float: left;
     margin-top: 5%;
     margin-left: 2%;
+}
+
+#events {
+    margin: 2rem;
+}
+
+.events {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events .title {
+    width: 30%;
+    font-size: 3rem;
+    float: left;
+    margin-left: 2rem;
+    
+}
+
+.events .content {
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    margin: 1rem;
+    border: 2px solid crimson;
+    padding: 1rem;
+}
+
+.event-images {
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.event-img {
+    flex: 1;
+    margin: 0 0.5rem;
+    display: block;
+    height: 100%;
+    width: 90%;
+    height: 300px;
+}
+
+#join .title {
+    text-align: center;
+    margin: 3rem auto;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/background-join.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 1rem;
 }
