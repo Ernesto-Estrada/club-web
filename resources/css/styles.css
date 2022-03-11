@@ -1,0 +1,145 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.navigation-bar {
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-around;
+}
+
+.navigation-bar li {
+    padding: 1rem;
+}
+
+.navigation-bar li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner {
+    width: 90%;
+    margin: 3.5rem auto;
+    height: 600px;
+    background-image: url(../images/background-football.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    width: 10%;
+    padding: 2rem;
+    font-size: 5rem;
+    color: #f2f2f2;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        width: 90%;
+        margin: 3.5rem auto;
+        height: 300px;
+        background-image: url(../images/background-small.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner h1 {
+        width: 10%;
+        padding: 1rem;
+        font-size: 3rem;
+        color: #f2f2f2;
+    }
+}
+
+
+.about {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .title {
+    width: 40%;
+    font-size: 3rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+.about .content {
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    margin: 1rem;
+    border: 2px solid crimson;
+    padding: 1rem;
+}
+
+.about .content h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: crimson;
+}
+
+.about .content .sponsor {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+#about-us .about-images {
+    margin: 2rem auto;
+    display: flex;
+    width: 90%;
+    height: 300px;
+}
+
+.example {
+    flex: 1;
+    margin: 0 0.5rem;
+    display: block;
+    height: 100%;
+}
+
+.quote {
+    width: 100%;
+    background-color: black;
+    color: #f2f2f2;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.quote aside h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+.quote aside p {
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
