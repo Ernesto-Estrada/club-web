@@ -200,6 +200,13 @@ img {
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+    #join .title {
+        height: 250px;
+        color: #f2f2f2;
+    }
+}
+
 .footer {
     text-align: center;
     position: fixed;
